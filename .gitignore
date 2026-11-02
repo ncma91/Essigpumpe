@@ -1,0 +1,7 @@
+# PlatformIO
+.pio/
+.vscode/
+
+# Sonstiges
+*.swp
+.DS_Store
