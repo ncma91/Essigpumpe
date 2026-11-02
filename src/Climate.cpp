@@ -8,7 +8,7 @@ void Climate::begin() {
 }
 
 bool Climate::update(uint32_t now) {
-    // Erste Messung erst nach einem Intervall: der DHT22 braucht nach dem
+    // Erste Messung erst nach einem Intervall: der AM2302 braucht nach dem
     // Einschalten ca. 1–2 s, bevor er sinnvolle Werte liefert.
     if (!_started) {
         _started = true;

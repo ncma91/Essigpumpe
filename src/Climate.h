@@ -1,4 +1,4 @@
-// DHT22-Auswertung: liest in festem Intervall, hält den letzten gültigen
+// AM2302-Auswertung: liest in festem Intervall, hält den letzten gültigen
 // Messwert und zählt Fehlversuche.
 #pragma once
 
